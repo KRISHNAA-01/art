@@ -1,0 +1,145 @@
+    #first {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #second {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* padding-top: 600px; */
+    }
+
+    #third {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    #fourth {
+        width: 100%;
+        height: 1050px;
+        backgroundImage: 'url("/bg-blue.jpg")';
+        backgroundAttachment: "fixed";
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 30px;
+        
+
+    }
+
+    #fifth {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+
+
+    }
+
+    #eight {
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #grid {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        row-gap: 12px;
+        column-gap: 12px;
+        flex-wrap: wrap;
+
+
+    }
+
+
+    #pt {
+        font-size: 24px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #2e2e2e;
+        text-align: center;
+    }
+
+    #pt1 {
+        font-size: 24px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #eff5f9;
+        text-align: center;
+    }
+
+    #picp {
+        text-align: center;
+        font-size: 16px;
+        color: #555;
+        max-width: 270px;
+
+        display: flex;
+
+    }
+
+    #picp1 {
+        text-align: center;
+        font-size: 16px;
+        color: #c1d6ff;
+        max-width: 350px;
+
+        display: flex;
+
+    }
+
+.hero-content {
+    background-color: #3d3e4154;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.hero-content h1 {
+    font-size: 64px;
+    font-weight: bold;
+
+    font-family: 'Georgia', serif;
+    text-shadow: 1px 1px 10px rgba(10, 11, 13, 0.6);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #cce5fb;
+}
+
+.hero-content p {
+    display: flex;
+    font-size: 22px;
+    font-weight: 300;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    color: #f1f6fb;
+}
